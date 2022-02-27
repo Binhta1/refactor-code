@@ -55,7 +55,7 @@ div.hero {
     
 }    
 div.hero img{
-   height: 800px;
+   height: 1000px;
    width: 100%; 
 }
 section.content {
@@ -64,7 +64,7 @@ section.content {
     margin-left: 20px;
 }
 
-section.content article.content {
+section article.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,21 +73,21 @@ section.content article.content {
     color: #ffffff;
 }
 
-section.content article.content img {
+section article.content img {
     max-height: 200px;
 }
 
-section.content article.content h2 {
+section article.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-section.content article.content img.float-left {
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-section.content article.content img.float-right {
+img.float-right {
     float: right;
     margin-left: 25px;
 }
@@ -103,18 +103,18 @@ aside.benefits {
     background-color: #2589bd;
 }
 
-aside.benefits article.benefit {
+aside article.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside.benefit article.benefit h3 {
+aside article.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-aside.benefits article.benefit img {
+aside article.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
