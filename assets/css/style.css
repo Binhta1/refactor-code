@@ -49,22 +49,24 @@ a {
 p {
     font-size: 16px;
 }
-
-div.hero {
+ /* this is the hero image  */
+.hero {
     margin-bottom: 25px;
     
 }    
-div.hero img{
+.hero img{
    height: 1000px;
    width: 100%; 
+   background-size:cover;
+   background-position: center;
 }
-section.content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section article.content {
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,26 +75,26 @@ section article.content {
     color: #ffffff;
 }
 
-section article.content img {
+.content img {
     max-height: 200px;
 }
 
-section article.content h2 {
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-img.float-left {
+ /* this chances the image left and right */
+.float-left {
     float: left;
     margin-right: 25px;
 }
 
-img.float-right {
+.float-right {
     float: right;
     margin-left: 25px;
 }
 
-aside.benefits {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,22 +105,23 @@ aside.benefits {
     background-color: #2589bd;
 }
 
-aside article.benefit {
+.benefits article{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside article.benefit h3 {
+.benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-aside article.benefit img {
+.benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 
 footer {
